@@ -10,10 +10,6 @@ app.get('/',(req, res) => {
     res.send('my phones is comming soon');
 });
 
-app.get('/phones/:id',(req, res)=> {
-    const id = req.params.id;
-})
-
 app.get('/phones', (req, res) => {
     res.send(phones);
 });
